@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Best Friend Application</h1>
+            <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="">
+            <p>
+                Hey there! I need a new best freind becuase the last one escaped. :)
+                Not my fault though, I'm a little moody and super cool!
+            </p>
+            <h3>
+                Wanna be Friends?
+            </h3>
+        </div>
+        <form action="mailto:leenaabigail.26@gmail.com?Subject=My best Friend Application" method="POST" enctype="text/plain">
+            <label for="name">What's your name?</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="John Doe">
+            <br>
+            <label for="nickname">Whatcha want me to call you?</label>
+            <br>
+            <input type="text" name="nickname" id="nickname"placeholder="Johny">
+            <br>
+            <label for="age">How old are you?</label>
+            <br>
+            <input type="number" id="age" name="age"  min="5" max="17"placeholder="13">
+            <br>
+            <label for="superhero">Who's your fav superhero?</label>
+            <br>
+            <input type="checkbox" name="ironman" id="ironman">
+            <label for="ironman">Ironman</label>
+            <input type="checkbox" name="superman" id="superman">
+            <label for="superman">Superman</label>
+            <input type="checkbox" name="batman" id="batman">
+            <label for="batman">Batman</label>
+            <br>
+            <label for="Why">Why do you want to be my friend?</label>
+            <textarea name="why" id="why" cols="10" rows="3">I want to be friends with you becuase</textarea>
+            <br>
+            <input type="submit" value="Let's Be friends! 🧡">
+        </form>
+    </section>
+</body>
+</html>
